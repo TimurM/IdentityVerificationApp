@@ -1,0 +1,2 @@
+class CheckLocationsController < ApplicationController
+end

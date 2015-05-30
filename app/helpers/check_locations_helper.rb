@@ -1,0 +1,2 @@
+module CheckLocationsHelper
+end
