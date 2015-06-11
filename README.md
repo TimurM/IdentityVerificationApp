@@ -1,5 +1,14 @@
 #IdentityVerificationApp README
 
+## Instructions
+[Click here](https://gov.blockscore.com/)
+
+* You cannot use a gem or library to calculate geo distance
+* You can use a gem to geocode an IP address
+* You can be as sophisticated (or not) as you would like to be with the string matching
+* You can use whichever request library you are most comfortable with
+* The stated spec for your API's return is a set of minimum requirements. You can pass back additional keys if you want
+
 ##How to Check Solution:
 
 * Step 1: start the server with 'rails s'
