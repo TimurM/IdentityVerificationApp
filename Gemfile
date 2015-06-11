@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'httparty'
+gem 'active_attr'
+
 group :development do
   gem 'pry-rails'
   gem 'better_errors'
@@ -38,4 +41,11 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  # gem 'cucumber-api-steps', :require => false
+  # gem 'json_spec', '~> 1.1.4'
+  # gem 'jsonpath', '~> 0.5.6'
+  # gem 'nokogiri', '~> 1.6.6.2'
 end

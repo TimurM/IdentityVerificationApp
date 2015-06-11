@@ -1,0 +1,23 @@
+
+<h2>Location Verification Form</h2>
+
+<form action="<%= check_locations_url %>" method="post">
+    <input
+    type="hidden"
+    name="authenticity_token"
+    value="<%= form_authenticity_token %>">
+
+    <label>First Name</label>
+    <input type="text" name="first_name" value="">
+    <br>
+
+    <label>Last Name</label>
+    <input type="text" name="last_name" value="">
+    <br>
+
+    <label>IP Address</label>
+    <input type="text" name="ip_address" value="">
+    <br>
+
+    <input type="submit" value="Check Identity">
+  </form>
