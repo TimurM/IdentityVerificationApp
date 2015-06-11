@@ -1,17 +1,21 @@
-== README
+#IdentityVerificationApp README
 
-How to Check Solution:
+##How to Check Solution:
 
-Step 1: start the server with 'rails s'
-Step 2: paste the following in command line:
+* Step 1: start the server with 'rails s'
+* Step 2: paste the following in command line:
 
+```
 curl --data "first_name=Kristy&last_name=Macejkovic&ip_address=204.57.220.1" http://localhost:3000/users
+```
 
 This will generate a json response that you can verify.
 
-Step 3(Optional): You can navigate to
+* Step 3(Optional): You can navigate to
 
+```
 http://localhost:3000/users/new
+```
 
 Enter the following information:
 first name: Kristy
@@ -20,7 +24,7 @@ ip_address: 204.57.220.1
 
 This will either display a json response or display an error message
 
-My Approach:
+### My Approach:
 
 1. Retrieve data from the NSA API
 -Based on first_name and last_name retrieve the user's object from the NSA API
@@ -41,7 +45,7 @@ My Approach:
 -After Step 1 through Step 3 executes, I return the User object as JSON
 
 
-Resources I refrenced:
+### Resources I refrenced:
 1. To calculate distance between two points:
 http://www.codecodex.com/wiki/Calculate_distance_between_two_points_on_a_globe#Ruby
 2. To Geocode an IP address:
